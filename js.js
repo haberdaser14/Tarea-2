@@ -14,7 +14,7 @@ const mostrarDatosDelUsuario = function(){
     const nombreUsuario = document.querySelector("#nombre_usuario").value;
     const segundoNombreUsuario = document.querySelector("#segundo_nombre_usuario").value;
     const apellidoUsuario = document.querySelector("#apellido_usuario").value;
-    const edadUsuario = document.querySelector("#edad_usuario")
+    const edadUsuario = document.querySelector("#edad_usuario").value;
     return (`${nombreUsuario} ${segundoNombreUsuario} ${apellidoUsuario} ${edadUsuario}`)
 }
 
